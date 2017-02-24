@@ -11,19 +11,26 @@ body {
 	text-transform: uppercase;
 	color: #44545E;
 	-webkit-font-smoothing: antialiased;
+	margin: 0;
 
 }
 
 /* ----------------------------------------
 Typography
 ------------------------------------------- */
-/*TO ADD --> LATO: font-family: 'Lato', sans-serif;*/
 h2 {
 	font-size: 23px;
 }
 
 a {
 	text-decoration: none;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+	font-weight: 400;
+	line-height: 1.4;
 }
 /* ----------------------------------------
 Lists
@@ -34,6 +41,9 @@ Lists
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
+section {
+	padding: 105px 30px;
+}
 .center-content {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -61,12 +71,19 @@ Layout
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+	margin-top: 45px;
 }
 
 .col-third {
 	width: 32%;
 	
 }
+
+.about-background{
+	background-color: #CFF2F6;
+}
+
+
 /* ----------------------------------------
 Header
 ------------------------------------------- */
@@ -111,8 +128,47 @@ header h1 {
 }
 
 /* ----------------------------------------
+About
+------------------------------------------- */
+.content-center-wrap {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 1.4;
+	font-size: 18px;
+	line-height: 1.1;
+}
+
+.about-content {
+	margin-top: 45px;
+}
+/* ----------------------------------------
 Buttons
-------------------------------------------- 
+------------------------------------------- */
+button {
+	cursor: pointer;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25.5px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.2px;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+	font-weight: 600;
+}
+
+.grid-wrapper button {	
+	margin-top: 30px;
+}
+
+
 
 
 /* ----------------------------------------
