@@ -22,6 +22,10 @@ h2 {
 	font-size: 23px;
 }
 
+h3 {
+	font-size: 18px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -83,6 +87,17 @@ section {
 	background-color: #CFF2F6;
 }
 
+.content-center-wrap {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+img {
+	max-width: 100%;
+}
 
 /* ----------------------------------------
 Header
@@ -130,18 +145,17 @@ header h1 {
 /* ----------------------------------------
 About
 ------------------------------------------- */
-.content-center-wrap {
+.about article {
 	max-width: 800px;
-	width: 100%;
-	margin: 0 auto;
-	line-height: 1.4;
-	font-size: 18px;
+	font-size: 17.6px;
 	line-height: 1.1;
 }
 
 .about-content {
 	margin-top: 45px;
 }
+
+
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
