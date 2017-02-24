@@ -9,12 +9,18 @@ body {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
+	color: #44545E;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 /* ----------------------------------------
 Typography
 ------------------------------------------- */
 /*TO ADD --> LATO: font-family: 'Lato', sans-serif;*/
+h2 {
+	font-size: 23px;
+}
 
 a {
 	text-decoration: none;
@@ -28,12 +34,29 @@ Lists
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
+.center-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap:  wrap;
+	    flex-wrap:  wrap;
+}
 
 /* ----------------------------------------
 Header
 ------------------------------------------- */
 nav	{
 	background-color: #fff;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
 nav li {
@@ -45,6 +68,24 @@ nav a {
 	padding: 10px 60px;
 	letter-spacing: 0.75px;
 	color: #7B98AA;
+}
+
+header {
+	padding-top: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/home_header_bg.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+header h1, h2 {
+	color: #fff;
+}
+
+header h1 {
+	font-size: 37px;
+	letter-spacing: 12px;
 }
 
 /* ----------------------------------------
