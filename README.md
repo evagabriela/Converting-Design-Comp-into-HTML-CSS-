@@ -2,5 +2,5 @@
 
 ## Design Comp 
 
-![Mockout](landing_page_styleguide.png?raw=true "FInal Mockup")
+![Mockout](./landing_page_styleguide.png?raw=true "Final Mockup")
 
