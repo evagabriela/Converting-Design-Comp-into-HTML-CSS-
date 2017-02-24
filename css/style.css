@@ -48,6 +48,25 @@ Layout
 	    flex-wrap:  wrap;
 }
 
+.grid-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.col-third {
+	width: 32%;
+	
+}
 /* ----------------------------------------
 Header
 ------------------------------------------- */
@@ -79,9 +98,12 @@ header {
 	height: 100vh;
 }
 
-header h1, h2 {
+h1 a,
+h1 a:hover,
+header h2 {
 	color: #fff;
 }
+
 
 header h1 {
 	font-size: 37px;
