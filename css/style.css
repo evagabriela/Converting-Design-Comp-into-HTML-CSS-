@@ -193,8 +193,79 @@ button:hover {
 	margin-top: 30px;
 }
 
+/* ----------------------------------------
+Form
+------------------------------------------- */
+form {
+	margin-top: 45px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
 
+input {
+	border: 2px solid #44545E;
+    margin-bottom: 12px;
+    padding: 10px;
+}
 
+textarea {
+	width: 100%;
+	border: 2px solid #44545E;
+	margin-bottom: 12px;
+	padding: 10px 10px;
+	outline: 0;
+	height:30vh;
+}
+
+form button {
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-ms-input-placeholder {  
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600; 
+}
+
+#contact {
+	padding-top: 24px;
+}
 
 /* ----------------------------------------
 Footer
