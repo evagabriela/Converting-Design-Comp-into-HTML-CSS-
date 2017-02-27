@@ -12,12 +12,23 @@ body {
 	color: #44545E;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
-
+	letter-spacing: .02em;
 }
+
+/*Responsive Images*/
+
+img {
+	max-width: 100%;
+}
+
 
 /* ----------------------------------------
 Typography
 ------------------------------------------- */
+h1,h2,h3,h4 {
+	font-weight: 600;
+}
+
 h2 {
 	font-size: 23px;
 }
@@ -28,6 +39,11 @@ h3 {
 
 a {
 	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+
+a:hover {
+	color: #44545E;
 }
 
 p {
@@ -95,10 +111,6 @@ section {
 	font-size: 18px;
 }
 
-img {
-	max-width: 100%;
-}
-
 /* ----------------------------------------
 Header
 ------------------------------------------- */
@@ -120,6 +132,7 @@ nav a {
 	letter-spacing: 0.75px;
 	color: #7B98AA;
 }
+
 
 header {
 	padding-top: 30px;
@@ -205,6 +218,11 @@ footer .content-center-wrap {
 	margin-bottom: 30px;
 	display: inline-block;
 	color: #44545E;
+}
+
+.social-links a:hover {
+	color: #3ba2e7;
+	transition: all .3s ease-in-out;
 }
 
 footer input {
